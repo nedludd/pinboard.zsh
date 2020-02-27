@@ -109,5 +109,5 @@ test-add() {
 
 [[ "$1" = ""          ]] && echo "PINBOARD: Please provide an action <test|add>"
 [[ "$1" = "test"      ]] && test-add
-[[ "$1" = "add"       ]] && pinboard-add $2
+[[ "$1" = "add"       ]] && pinboard-add $2 $3
 [[ "$1" = "qute-add"  ]] && pinboard-qute-add
